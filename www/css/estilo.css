@@ -1,0 +1,24 @@
+/*titulo*/
+.titulo{
+  text-align: center;
+  font-size: 50px;
+  color:white;
+}
+.subtitulo{
+  text-align: center;
+  font-size: 25px;
+  color:white;
+}
+
+/*labels*/
+label{
+  color: white;
+  font-size: 20px;
+}
+
+/*botoes*/
+button{
+  font-size: 20px;
+}
+
+/*inputs*/

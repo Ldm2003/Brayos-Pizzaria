@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <script src="components/jquery-3.4.1.min.js"></script>
+  <script src="https://kit.fontawesome.com/be184030a6.js"></script>
+  <script src="components/sistema.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+
+  <style>
+    body{
+        background-image: url(fundo.jpg);
+    }
+    input[type="text"]{
+    color: white;
+    box-shadow: none;
+    animation: none;
+    border-bottom: 1px solid white;
+}
+    input[type="text"]:focus{
+    color: white;
+    box-shadow: none;
+    animation: none;
+    border-bottom: 1px solid white;
+}
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <img src="Brayos.png" style="width:100%; height: 110%;">
+    <h4 class="subtitulo"><b>Cadastrar Pizzas</b></h4>
+    <div class="row">
+      <div class="col-xs-12">
+        <label for=""><i class="fas fa-pizza-slice fa-1x casa" style="margin-right: 5px"></i>Sabor:</label>
+        <input type="text" class="form-control" style="background-color: transparent; border-top: 10px; border-left: 30px; border-right: 30px ; outline: none;">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <label for=""><i class="fas fa-dollar-sign fa-1x casa" style="margin-right: 5px"></i>Valor:</label>
+        <input type="text" id="a" class="form-control" style="background-color: transparent; border-top: 10px; border-left: 10px; border-right: 10px white;">
+        <br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6">
+        <button class="btn btn-lg btn-block btn-success"><i class="fas fa-plus-circle fa-1x casa" style="margin-right: 5px"></i> Cadastrar</button>
+
+      </div>
+      <div class="col-xs-6">
+        <a href="listar.html"><button class="btn btn-lg btn-block btn-info"><i class="fas fa-scroll fa-1x casa" style="margin-right: 5px"></i>Listar</button></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
